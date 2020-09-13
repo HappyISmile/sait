@@ -610,3 +610,74 @@ header.top_header .wrapper .right_nav ul li a:hover{
 .team_list .team_member .data{
     margin-left: 17px;
 }
+
+.team_list .team_member .data .name{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    display:block;
+    color: #FFFFFF;
+} 
+
+.team_list .team_member .data .post{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+    display:block;
+    color: #433840;
+    margin-bottom: 14px;
+}
+
+.team_list .team_member .data  p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+    color: #433840;
+    margin-bottom: 10px;
+}
+
+.team_list .team_member .data .social{
+    letter-spacing: 10px;
+}
+
+.team_list .team_member:nth-child(2),
+.team_list .team_member:nth-child(3){
+    background: #DFEEB6;
+}
+
+.team_list .team_member:nth-child(3),
+.team_list .team_member:nth-child(4){
+    margin-left: 0;
+    margin-right: 190px;
+
+}
+.team_list .team_member:nth-child(3) .image,
+.team_list .team_member:nth-child(4) .image{
+    order: 2;
+}
+
+.team_list .team_member:nth-child(3) .image img,
+.team_list .team_member:nth-child(4) .image img{
+    margin-left: 0;
+    margin-right: -190px;
+}
+
+.team_list .team_member:nth-child(3) .data,
+.team_list .team_member:nth-child(4) .data{
+    order: 1;
+    text-align: right;
+    margin-left: 0;
+    margin-right: 17px;
+}
+
+/*Footer*/
+.footer{
+    background: transparent url(img/footerbc.png) center center no-repeat;
+}
+.footer .footer_member .name{
+    display: block;
+    margin-top: 62px;
+}
