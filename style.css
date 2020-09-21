@@ -413,7 +413,7 @@ header.top_header .wrapper .right_nav ul li a:hover{
 }
 
 .page_heading{
-    min-height: 400px;
+    min-height: 403px;
     position: relative;
     background-size: cover;
     margin-right: 50px;
@@ -445,7 +445,7 @@ header.top_header .wrapper .right_nav ul li a:hover{
     background: url("img/bottom.svg") center center no-repeat;
     position: absolute;
     bottom:0;
-    left:0;
+    left: 0;
 }
 
 .page_heading h2{
@@ -677,7 +677,45 @@ header.top_header .wrapper .right_nav ul li a:hover{
 .footer{
     background: transparent url(img/footerbc.png) center center no-repeat;
 }
+.footer .footer_list{
+    display: flex;
+    justify-content: space-evenly;
+}
 .footer .footer_member .name{
     display: block;
     margin-top: 62px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FFFFFF;
+
+}
+
+.footer .footer_member .post{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+.footer .footer_member .inst_img img{
+    /* width: 97px;
+    height: 97px; */
+    /* border-radius: 5px; */
+    padding-top: 5px;
+}
+
+
+/*Copyrights*/
+.copyrights_theme .copy_post{
+    background: #433840;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 35px;
+    color: #FFFFFF;
+    text-align: center;
 }
